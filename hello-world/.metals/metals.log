@@ -1,2 +1,38 @@
 2022.02.05 17:42:14 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\.metals\lsp.trace.json or C:\Users\tonij\AppData\Local\scalameta\metals\cache\lsp.trace.json
 2022.02.05 17:42:15 INFO  logging to file C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\.metals\metals.log
+2022.02.05 17:42:15 INFO  Started: Metals version 0.11.1 in workspace 'C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world' for client Visual Studio Code 1.64.0.
+2022.02.05 17:42:15 INFO  Parse release: 17.0.2
+2022.02.05 17:42:17 INFO  time: initialize in 1.84s
+2022.02.05 17:42:17 WARN  Build server is not auto-connectable.
+2022.02.05 17:42:21 INFO  running 'C:\Progra~2\Java\jdk-17.0.2\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\tonij\AppData\Local\Temp\metals586731870696304693\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.02.05 17:42:23 INFO  [info] welcome to sbt 1.6.1 (Oracle Corporation Java 17.0.2)
+2022.02.05 17:42:25 INFO  [info] loading settings for project hello-world-build-build from metals.sbt ...
+2022.02.05 17:42:25 INFO  [info] loading project definition from C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\project\project
+2022.02.05 17:42:28 INFO  [info] loading settings for project hello-world-build from metals.sbt ...
+2022.02.05 17:42:28 INFO  [info] loading project definition from C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\project
+2022.02.05 17:42:30 INFO  [success] Generated .bloop\hello-world-build.json
+2022.02.05 17:42:30 INFO  [success] Total time: 2 s, completed 5 feb 2022 17:42:30
+2022.02.05 17:42:32 INFO  [info] loading settings for project hello-world from build.sbt ...
+2022.02.05 17:42:32 INFO  [info] set current project to hello-world (in build file:/C:/Users/tonij/OneDrive/Escritorio/MyProjects/hello-world/)
+2022.02.05 17:42:32 INFO  [success] Generated .bloop\hello-world.json
+2022.02.05 17:42:32 INFO  [success] Generated .bloop\hello-world-test.json
+2022.02.05 17:42:32 INFO  [success] Total time: 0 s, completed 5 feb 2022 17:42:33
+2022.02.05 17:42:33 INFO  time: ran 'sbt bloopInstall' in 11s
+2022.02.05 17:42:33 INFO  Attempting to connect to the build server...
+2022.02.05 17:42:33 ERROR Starting the bsp launcher for bloop...
+2022.02.05 17:42:33 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 26159'...
+2022.02.05 17:42:33 ERROR Waiting for the bsp connection to come up...
+2022.02.05 17:42:33 ERROR error: The command bsp --protocol tcp --port 26159 returned with an error
+2022.02.05 17:42:33 ERROR > 
+2022.02.05 17:42:33 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.05 17:42:33 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
