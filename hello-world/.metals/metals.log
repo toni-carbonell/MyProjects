@@ -36,3 +36,394 @@ java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnect
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.lang.Thread.run(Thread.java:833)
 
+2022.02.05 17:45:26 INFO  Attempting to connect to the build server...
+2022.02.05 17:45:26 ERROR Starting the bsp launcher for bloop...
+2022.02.05 17:45:26 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 27030'...
+2022.02.05 17:45:26 ERROR Waiting for the bsp connection to come up...
+2022.02.05 17:45:26 ERROR error: The command bsp --protocol tcp --port 27030 returned with an error
+2022.02.05 17:45:26 ERROR > 
+2022.02.05 17:45:26 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.05 17:45:26 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.02.05 17:45:51 INFO  Attempting to connect to the build server...
+2022.02.05 17:45:51 ERROR Starting the bsp launcher for bloop...
+2022.02.05 17:45:51 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 21182'...
+2022.02.05 17:45:51 ERROR Waiting for the bsp connection to come up...
+2022.02.05 17:45:51 ERROR error: The command bsp --protocol tcp --port 21182 returned with an error
+2022.02.05 17:45:51 ERROR > 
+2022.02.05 17:45:51 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.05 17:45:51 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.02.05 17:47:44 INFO  Attempting to connect to the build server...
+2022.02.05 17:47:44 ERROR Starting the bsp launcher for bloop...
+2022.02.05 17:47:44 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 36792'...
+2022.02.05 17:47:44 ERROR Waiting for the bsp connection to come up...
+2022.02.05 17:47:44 ERROR error: The command bsp --protocol tcp --port 36792 returned with an error
+2022.02.05 17:47:44 ERROR > 
+2022.02.05 17:47:44 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.05 17:47:44 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.02.05 17:47:45 INFO  Attempting to connect to the build server...
+2022.02.05 17:47:45 ERROR Starting the bsp launcher for bloop...
+2022.02.05 17:47:45 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 43271'...
+2022.02.05 17:47:45 ERROR Waiting for the bsp connection to come up...
+2022.02.05 17:47:45 ERROR error: The command bsp --protocol tcp --port 43271 returned with an error
+2022.02.05 17:47:45 ERROR > 
+2022.02.05 17:47:45 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.05 17:47:45 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.02.05 17:47:50 INFO  Attempting to connect to the build server...
+2022.02.05 17:47:50 ERROR Starting the bsp launcher for bloop...
+2022.02.05 17:47:50 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 31827'...
+2022.02.05 17:47:50 ERROR Waiting for the bsp connection to come up...
+2022.02.05 17:47:50 ERROR error: The command bsp --protocol tcp --port 31827 returned with an error
+2022.02.05 17:47:50 ERROR > 
+2022.02.05 17:47:50 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.05 17:47:50 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.02.05 17:47:55 INFO  Attempting to connect to the build server...
+2022.02.05 17:47:55 ERROR Starting the bsp launcher for bloop...
+2022.02.05 17:47:55 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 44122'...
+2022.02.05 17:47:55 ERROR Waiting for the bsp connection to come up...
+2022.02.05 17:47:55 ERROR error: The command bsp --protocol tcp --port 44122 returned with an error
+2022.02.05 17:47:55 ERROR > 
+2022.02.05 17:47:55 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.05 17:47:55 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.02.05 17:48:08 INFO  Attempting to connect to the build server...
+2022.02.05 17:48:08 ERROR Starting the bsp launcher for bloop...
+2022.02.05 17:48:08 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 13739'...
+2022.02.05 17:48:08 ERROR Waiting for the bsp connection to come up...
+2022.02.05 17:48:08 ERROR error: The command bsp --protocol tcp --port 13739 returned with an error
+2022.02.05 17:48:08 ERROR > 
+2022.02.05 17:48:08 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.05 17:48:08 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.02.05 17:49:39 WARN  no build target for: C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\project\project\metals.sbt
+2022.02.05 17:49:42 INFO  no build target found for C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\project\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.1.0
+2022.02.05 17:49:44 INFO  time: code lens generation in 4.75s
+2022.02.05 17:51:52 INFO  running 'C:\Progra~2\Java\jdk-17.0.2\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\tonij\AppData\Local\Temp\metals14993694601185134771\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.02.05 17:51:54 INFO  [info] welcome to sbt 1.6.1 (Oracle Corporation Java 17.0.2)
+2022.02.05 17:51:54 INFO  [info] loading settings for project hello-world-build-build from metals.sbt ...
+2022.02.05 17:51:56 INFO  [info] loading project definition from C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\project\project
+2022.02.05 17:51:56 INFO  [info] loading settings for project hello-world-build from metals.sbt ...
+2022.02.05 17:51:57 INFO  [info] loading project definition from C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\project
+2022.02.05 17:52:00 INFO  [success] Generated .bloop\hello-world-build.json
+2022.02.05 17:52:00 INFO  [success] Total time: 3 s, completed 5 feb 2022 17:52:00
+2022.02.05 17:52:00 INFO  [info] loading settings for project hello-world from build.sbt ...
+2022.02.05 17:52:00 INFO  [info] set current project to hello-world (in build file:/C:/Users/tonij/OneDrive/Escritorio/MyProjects/hello-world/)
+2022.02.05 17:52:00 INFO  [success] Generated .bloop\hello-world.json
+2022.02.05 17:52:00 INFO  [success] Generated .bloop\hello-world-test.json
+2022.02.05 17:52:00 INFO  [success] Total time: 0 s, completed 5 feb 2022 17:52:01
+2022.02.05 17:52:01 INFO  time: ran 'sbt bloopInstall' in 8.94s
+2022.02.05 17:52:01 INFO  Attempting to connect to the build server...
+2022.02.05 17:52:01 ERROR Starting the bsp launcher for bloop...
+2022.02.05 17:52:01 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 37876'...
+2022.02.05 17:52:01 ERROR Waiting for the bsp connection to come up...
+2022.02.05 17:52:01 ERROR error: The command bsp --protocol tcp --port 37876 returned with an error
+2022.02.05 17:52:01 ERROR > 
+2022.02.05 17:52:01 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.05 17:52:01 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.02.05 17:52:22 INFO  running 'C:\Progra~2\Java\jdk-17.0.2\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\tonij\AppData\Local\Temp\metals13547910012275888543\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.02.05 17:52:23 INFO  [info] welcome to sbt 1.6.1 (Oracle Corporation Java 17.0.2)
+2022.02.05 17:52:23 INFO  [info] loading settings for project hello-world-build-build from metals.sbt ...
+2022.02.05 17:52:25 INFO  [info] loading project definition from C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\project\project
+2022.02.05 17:52:26 INFO  [info] loading settings for project hello-world-build from metals.sbt ...
+2022.02.05 17:52:26 INFO  [info] loading project definition from C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\project
+2022.02.05 17:52:29 INFO  [success] Generated .bloop\hello-world-build.json
+2022.02.05 17:52:29 INFO  [success] Total time: 3 s, completed 5 feb 2022 17:52:30
+2022.02.05 17:52:29 INFO  [info] loading settings for project hello-world from build.sbt ...
+2022.02.05 17:52:29 INFO  [info] set current project to hello-world (in build file:/C:/Users/tonij/OneDrive/Escritorio/MyProjects/hello-world/)
+2022.02.05 17:52:29 INFO  [success] Generated .bloop\hello-world-test.json
+2022.02.05 17:52:29 INFO  [success] Generated .bloop\hello-world.json
+2022.02.05 17:52:29 INFO  [success] Total time: 0 s, completed 5 feb 2022 17:52:30
+2022.02.05 17:52:30 INFO  time: ran 'sbt bloopInstall' in 8.37s
+2022.02.05 17:52:30 INFO  Attempting to connect to the build server...
+2022.02.05 17:52:30 ERROR Starting the bsp launcher for bloop...
+2022.02.05 17:52:30 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 15144'...
+2022.02.05 17:52:30 ERROR Waiting for the bsp connection to come up...
+2022.02.05 17:52:30 ERROR error: The command bsp --protocol tcp --port 15144 returned with an error
+2022.02.05 17:52:30 ERROR > 
+2022.02.05 17:52:30 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.05 17:52:30 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.02.05 18:08:22 INFO  running 'C:\Progra~2\Java\jdk-17.0.2\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\tonij\AppData\Local\Temp\metals735162246468644022\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.02.05 18:08:24 INFO  [info] welcome to sbt 1.6.1 (Oracle Corporation Java 17.0.2)
+2022.02.05 18:08:24 INFO  [info] loading settings for project hello-world-build-build from metals.sbt ...
+2022.02.05 18:08:26 INFO  [info] loading project definition from C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\project\project
+2022.02.05 18:08:27 INFO  [info] loading settings for project hello-world-build from metals.sbt ...
+2022.02.05 18:08:27 INFO  [info] loading project definition from C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\project
+2022.02.05 18:08:31 INFO  [success] Generated .bloop\hello-world-build.json
+2022.02.05 18:08:31 INFO  [success] Total time: 3 s, completed 5 feb 2022 18:08:31
+2022.02.05 18:08:31 INFO  [info] loading settings for project hello-world from build.sbt ...
+2022.02.05 18:08:31 INFO  [info] set current project to hello-world (in build file:/C:/Users/tonij/OneDrive/Escritorio/MyProjects/hello-world/)
+2022.02.05 18:08:31 INFO  [success] Generated .bloop\hello-world-test.json
+2022.02.05 18:08:31 INFO  [success] Generated .bloop\hello-world.json
+2022.02.05 18:08:31 INFO  [success] Total time: 0 s, completed 5 feb 2022 18:08:31
+2022.02.05 18:08:31 INFO  time: ran 'sbt bloopInstall' in 8.94s
+2022.02.05 18:08:31 INFO  Attempting to connect to the build server...
+2022.02.05 18:08:31 ERROR Starting the bsp launcher for bloop...
+2022.02.05 18:08:31 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 26814'...
+2022.02.05 18:08:31 ERROR Waiting for the bsp connection to come up...
+2022.02.05 18:08:31 ERROR error: The command bsp --protocol tcp --port 26814 returned with an error
+2022.02.05 18:08:31 ERROR > 
+2022.02.05 18:08:31 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.05 18:08:31 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.02.05 18:12:40 WARN  no build target for: C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\build.sbt
+2022.02.05 18:12:50 WARN  no build target for: C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\project\metals.sbt
+2022.02.05 18:12:53 WARN  no build target for: C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\project\project\metals.sbt
+2022.02.05 18:13:37 WARN  no build target for: C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\build.sbt
+2022.02.05 18:14:37 WARN  no build target for: C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\project\metals.sbt
+2022.02.05 18:15:46 WARN  no build target for: C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\build.sbt
+2022.02.05 18:15:58 WARN  no build target for: C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\project\project\metals.sbt
+2022.02.05 18:16:05 WARN  no build target for: C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\project\metals.sbt
+2022.02.05 18:16:06 WARN  no build target for: C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\build.sbt
+2022.02.05 18:17:37 INFO  running 'C:\Progra~2\Java\jdk-17.0.2\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\tonij\AppData\Local\Temp\metals1446903305603164318\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.02.05 18:17:39 INFO  [info] welcome to sbt 1.6.1 (Oracle Corporation Java 17.0.2)
+2022.02.05 18:17:39 INFO  [info] loading settings for project hello-world-build-build from metals.sbt ...
+2022.02.05 18:17:41 INFO  [info] loading project definition from C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\project\project
+2022.02.05 18:17:41 INFO  [info] loading settings for project hello-world-build from metals.sbt ...
+2022.02.05 18:17:42 INFO  [info] loading project definition from C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\project
+2022.02.05 18:17:45 INFO  [success] Generated .bloop\hello-world-build.json
+2022.02.05 18:17:45 INFO  [success] Total time: 3 s, completed 5 feb 2022 18:17:45
+2022.02.05 18:17:45 INFO  [info] loading settings for project hello-world from build.sbt ...
+2022.02.05 18:17:45 INFO  [info] set current project to hello-world (in build file:/C:/Users/tonij/OneDrive/Escritorio/MyProjects/hello-world/)
+2022.02.05 18:17:45 INFO  [success] Generated .bloop\hello-world.json
+2022.02.05 18:17:45 INFO  [success] Generated .bloop\hello-world-test.json
+2022.02.05 18:17:45 INFO  [success] Total time: 0 s, completed 5 feb 2022 18:17:46
+2022.02.05 18:17:46 INFO  time: ran 'sbt bloopInstall' in 8.5s
+2022.02.05 18:17:46 INFO  Attempting to connect to the build server...
+2022.02.05 18:17:46 ERROR Starting the bsp launcher for bloop...
+2022.02.05 18:17:46 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 43526'...
+2022.02.05 18:17:46 ERROR Waiting for the bsp connection to come up...
+2022.02.05 18:17:46 ERROR error: The command bsp --protocol tcp --port 43526 returned with an error
+2022.02.05 18:17:46 ERROR > 
+2022.02.05 18:17:46 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.05 18:17:46 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.02.05 18:21:59 INFO  running 'C:\Progra~2\Java\jdk-17.0.2\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\tonij\AppData\Local\Temp\metals10224252198887576594\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.02.05 18:22:01 INFO  [info] welcome to sbt 1.6.1 (Oracle Corporation Java 17.0.2)
+2022.02.05 18:22:01 INFO  [info] loading settings for project hello-world-build-build from metals.sbt ...
+2022.02.05 18:22:02 INFO  [info] loading project definition from C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\project\project
+2022.02.05 18:22:02 INFO  [info] loading settings for project hello-world-build from metals.sbt ...
+2022.02.05 18:22:03 INFO  [info] loading project definition from C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\project
+2022.02.05 18:22:06 INFO  [success] Generated .bloop\hello-world-build.json
+2022.02.05 18:22:06 INFO  [success] Total time: 3 s, completed 5 feb 2022 18:22:06
+2022.02.05 18:22:06 INFO  [info] loading settings for project hello-world from build.sbt ...
+2022.02.05 18:22:06 INFO  [info] set current project to hello-world (in build file:/C:/Users/tonij/OneDrive/Escritorio/MyProjects/hello-world/)
+2022.02.05 18:22:06 INFO  [success] Generated .bloop\hello-world-test.json
+2022.02.05 18:22:06 INFO  [success] Generated .bloop\hello-world.json
+2022.02.05 18:22:06 INFO  [success] Total time: 0 s, completed 5 feb 2022 18:22:07
+2022.02.05 18:22:07 INFO  time: ran 'sbt bloopInstall' in 8.19s
+2022.02.05 18:22:07 INFO  Attempting to connect to the build server...
+2022.02.05 18:22:07 ERROR Starting the bsp launcher for bloop...
+2022.02.05 18:22:07 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 42878'...
+2022.02.05 18:22:07 ERROR Waiting for the bsp connection to come up...
+2022.02.05 18:22:07 ERROR error: The command bsp --protocol tcp --port 42878 returned with an error
+2022.02.05 18:22:07 ERROR > 
+2022.02.05 18:22:07 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.05 18:22:07 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.02.05 18:26:53 INFO  running 'C:\Progra~2\Java\jdk-17.0.2\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\tonij\AppData\Local\Temp\metals14866736251066564628\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.02.05 18:26:54 INFO  [info] welcome to sbt 1.6.1 (Oracle Corporation Java 17.0.2)
+2022.02.05 18:26:54 INFO  [info] loading settings for project hello-world-build-build from metals.sbt ...
+2022.02.05 18:26:56 INFO  [info] loading project definition from C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\project\project
+2022.02.05 18:26:56 INFO  [info] loading settings for project hello-world-build from metals.sbt ...
+2022.02.05 18:26:57 INFO  [info] loading project definition from C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\project
+2022.02.05 18:27:00 INFO  [success] Generated .bloop\hello-world-build.json
+2022.02.05 18:27:00 INFO  [success] Total time: 3 s, completed 5 feb 2022 18:27:00
+2022.02.05 18:27:00 INFO  [info] loading settings for project hello-world from build.sbt ...
+2022.02.05 18:27:00 INFO  [info] set current project to hello-world (in build file:/C:/Users/tonij/OneDrive/Escritorio/MyProjects/hello-world/)
+2022.02.05 18:27:00 INFO  [success] Generated .bloop\hello-world.json
+2022.02.05 18:27:00 INFO  [success] Generated .bloop\hello-world-test.json
+2022.02.05 18:27:00 INFO  [success] Total time: 0 s, completed 5 feb 2022 18:27:01
+2022.02.05 18:27:01 INFO  time: ran 'sbt bloopInstall' in 8.37s
+2022.02.05 18:27:01 INFO  Attempting to connect to the build server...
+2022.02.05 18:27:01 ERROR Starting the bsp launcher for bloop...
+2022.02.05 18:27:01 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 26946'...
+2022.02.05 18:27:01 ERROR Waiting for the bsp connection to come up...
+2022.02.05 18:27:01 ERROR error: The command bsp --protocol tcp --port 26946 returned with an error
+2022.02.05 18:27:01 ERROR > 
+2022.02.05 18:27:01 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.05 18:27:01 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.02.05 18:29:24 INFO  shutting down Metals
+2022.02.05 18:29:40 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\.metals\lsp.trace.json or C:\Users\tonij\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.02.05 18:29:41 INFO  logging to file C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\.metals\metals.log
+2022.02.05 18:29:41 INFO  Started: Metals version 0.11.1 in workspace 'C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world' for client Visual Studio Code 1.64.0.
+2022.02.05 18:29:41 INFO  Parse release: 17.0.2
+2022.02.05 18:29:43 INFO  time: initialize in 1.91s
+2022.02.05 18:29:44 INFO  Attempting to connect to the build server...
+2022.02.05 18:29:43 INFO  skipping build import with status 'Installed'
+2022.02.05 18:29:44 ERROR Starting the bsp launcher for bloop...
+2022.02.05 18:29:44 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 31720'...
+2022.02.05 18:29:44 ERROR Waiting for the bsp connection to come up...
+2022.02.05 18:29:44 ERROR error: The command bsp --protocol tcp --port 31720 returned with an error
+2022.02.05 18:29:44 ERROR > 
+2022.02.05 18:29:44 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.05 18:29:44 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.02.05 18:29:44 WARN  no build target for: C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\build.sbt
+2022.02.05 18:29:47 INFO  running 'C:\Progra~2\Java\jdk-17.0.2\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\tonij\AppData\Local\Temp\metals11604887183048694377\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.02.05 18:29:47 INFO  no build target found for C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\build.sbt. Using presentation compiler with project's scala-library version: 3.1.0
+2022.02.05 18:29:49 INFO  [info] welcome to sbt 1.6.1 (Oracle Corporation Java 17.0.2)
+2022.02.05 18:29:50 INFO  time: code lens generation in 5.26s
+2022.02.05 18:29:50 INFO  [info] loading settings for project hello-world-build-build from metals.sbt ...
+2022.02.05 18:29:50 INFO  [info] loading project definition from C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\project\project
+2022.02.05 18:29:51 INFO  [info] loading settings for project hello-world-build from metals.sbt ...
+2022.02.05 18:29:51 INFO  [info] loading project definition from C:\Users\tonij\OneDrive\Escritorio\MyProjects\hello-world\project
+2022.02.05 18:29:54 INFO  [success] Generated .bloop\hello-world-build.json
+2022.02.05 18:29:54 INFO  [success] Total time: 3 s, completed 5 feb 2022 18:29:55
+2022.02.05 18:29:54 INFO  [info] loading settings for project hello-world from build.sbt ...
+2022.02.05 18:29:54 INFO  [info] set current project to hello-world (in build file:/C:/Users/tonij/OneDrive/Escritorio/MyProjects/hello-world/)
+2022.02.05 18:29:54 INFO  [success] Generated .bloop\hello-world-test.json
+2022.02.05 18:29:54 INFO  [success] Generated .bloop\hello-world.json
+2022.02.05 18:29:54 INFO  [success] Total time: 0 s, completed 5 feb 2022 18:29:55
+2022.02.05 18:29:55 INFO  time: ran 'sbt bloopInstall' in 8.54s
+2022.02.05 18:29:55 INFO  Attempting to connect to the build server...
+2022.02.05 18:29:55 ERROR Starting the bsp launcher for bloop...
+2022.02.05 18:29:55 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 30657'...
+2022.02.05 18:29:55 ERROR Waiting for the bsp connection to come up...
+2022.02.05 18:29:55 ERROR error: The command bsp --protocol tcp --port 30657 returned with an error
+2022.02.05 18:29:55 ERROR > 
+2022.02.05 18:29:55 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.05 18:29:55 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.02.05 18:34:57 INFO  shutting down Metals
